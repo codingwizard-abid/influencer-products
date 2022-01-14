@@ -13,27 +13,34 @@
 
    <title>Influencer-Products | A Great solution for the camera lovers</title>
    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
    <!-- Header area start -->
    <header id="header">
       <div class="container-top">
          <nav class="navbar">
+            <input type="checkbox" id="menu-bar">
+            <!-- menu bars icon for mobile -->
+            <label class="bar-icon" for="menu-bar">
+               <i class="fas fa-bars"></i>
+            </label>
             <a href="index.html" class="logo">
                <h3>Influencer products</h3>
             </a>
+            <!-- cart icon for mobile -->
+            <span class="cart-icon">
+               <i class="fas fa-shopping-cart"></i>
+            </span>
             <div class="menu">
                <ul class="menu-items">
                   <li><a href="#">Home</a></li>
                   <li><a href="#">Products</a></li>
                   <li><a href="#">Sign up</a></li>
                   <li><a href="#">Log in</a></li>
-                  <li><i class="fas fa-search"></i></li>
-                  <li><i class="fas fa-shopping-cart"></i></li>
+                  <li><a href="#"><i class="fas fa-search"></i></a></li>
+                  <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
                </ul>
-               <!-- <span class="cart-icon">
-                  <i class="fas fa-shopping-cart"></i>
-               </span> -->
             </div>
          </nav>
       </div>
@@ -50,11 +57,43 @@
                <a href="#banner-camera" class="link-btn border-round">Preebook now &nbsp; <i class="fas fa-arrow-right"></i></a>
             </div>
             <div class="banner-right text-center">
-               <img src="images/main-camera.png" alt="camera" id="banner-camera">
+               <img src="images/main-camera.png" alt="camera" id="banner-img">
             </div>
          </div>
       </div>
    </section>
    <!-- Banner area end -->
+
+   <!-- feature logo area start -->
+   <main>
+      <section id="feature-logo">
+         <div class="container">
+            <div class="feature-logos">
+               <div class="single-feature-logo">
+                  <img src="logos/Alibaba.svg" alt="Alibaba">
+               </div>
+               <div class="single-feature-logo">
+                  <img src="logos/Amazon.svg" alt="Amazon">
+               </div>
+               <div class="single-feature-logo">
+                  <img src="logos/Daraz.svg" alt="Daraz">
+               </div>
+               <div class="single-feature-logo">
+                  <img src="logos/Ebay.svg" alt="Ebay">
+               </div>
+               <div class="single-feature-logo">
+                  <img src="logos/Rakuten.svg" alt="Rakuten">
+               </div>
+               <div class="single-feature-logo">
+                  <img src="logos/Target.svg" alt="Target">
+               </div>
+               <div class="single-feature-logo">
+                  <img src="logos/Walmart.svg" alt="Walmart">
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- feature logo area end -->
+   </main>
 </body>
 </html>

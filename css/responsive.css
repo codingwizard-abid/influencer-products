@@ -1,0 +1,120 @@
+/* applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+   .container-top{
+      max-width: 1140px;
+   }
+}
+
+/* applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+   .container-top{
+      max-width: 1080px;
+   }
+   /* header area */
+   #header{
+      padding: 50px 0;
+   }
+   /* banner area */
+   .banner-left h1 {
+      font-size: 46px;
+      line-height: 65px;
+   }
+
+
+}
+
+/* applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+   .container-top{
+      max-width: 900px;
+   }
+   #header{
+      padding: 40px 0;
+   }
+   .menu-items{
+      column-gap: 30px;
+   }
+   /* banner area */
+   .banner-inner {
+      column-gap: 40px;
+   }
+   .banner-left h1 {
+      font-size: 36px;
+      line-height: 52px;
+   }
+   /* feature logo area */
+   .feature-logos{
+      grid-template-columns: repeat(5, 1fr);
+}
+
+/* applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+   .container-top{
+      max-width: 700px;
+   }
+   /* mobile menu */
+   .bar-icon,
+   .cart-icon{
+      display: block;
+      font-size: 26px;
+      color: #3e3e3e;
+      cursor: pointer;
+   }
+   .menu {
+      position: absolute;
+      background-color: rgba(255, 255, 255, 0.93);
+      width: 100%;
+      top: 100px;
+      left: -900px;
+      padding: 30px 0 20px;
+   }
+   .menu-items {
+      flex-direction: column;
+      row-gap: 18px;
+   }
+   .menu-items li i.fa-shopping-cart{
+     display: none;
+   }
+   #menu-bar:checked ~ .menu{
+      left: 0;
+      transition: all .4s;
+   }
+   /* banner area */
+   .banner-inner {
+      column-gap: 30px;
+      padding-top:30px;
+   }
+   .banner-left h1 {
+      font-size: 26px;
+      line-height: 42px;
+   }
+   
+   
+}
+
+/* applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+   /* logo  */
+   .navbar .logo h3{
+      font-size: 19px;
+   }
+   
+   /* banner area */
+   #banner{
+      padding: 30px 0;
+   }
+   .banner-inner {
+      column-gap: 30px;
+      padding-top:30px;
+      flex-direction: column;
+   }
+   .banner-left{
+      width: 100%;
+      margin-top: 30px;
+   }
+   .banner-right{
+      width: 100%;
+      order: -1;
+   }
+}
+
