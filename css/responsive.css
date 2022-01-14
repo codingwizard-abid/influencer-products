@@ -45,6 +45,8 @@
    /* feature logo area */
    .feature-logos{
       grid-template-columns: repeat(5, 1fr);
+      grid-row-gap: 20px;
+   }
 }
 
 /* applies to small devices (landscape phones, less than 768px) */
@@ -88,6 +90,10 @@
       font-size: 26px;
       line-height: 42px;
    }
+   /* feature logo area */
+   .feature-logos{
+      grid-template-columns: repeat(4, 1fr);
+   }
    
    
 }
@@ -115,6 +121,11 @@
    .banner-right{
       width: 100%;
       order: -1;
+   }
+   /* feature logo area */
+   .feature-logos{
+      grid-template-columns: repeat(3, 1fr);
+      grid-row-gap: 15px;
    }
 }
 
