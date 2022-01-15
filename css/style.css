@@ -173,6 +173,10 @@ a{
    grid-template-columns: repeat(7, 1fr);
    align-items: center;
 }
+.single-feature-logo img{
+   max-width: 100%;
+   padding: 0 5px;
+}
 
 /* popular products area */
 #products{
