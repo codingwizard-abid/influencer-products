@@ -221,12 +221,13 @@ a{
 .rating span{
    color:#5E6366;
 }
-.products-details p{
+.products-details p {
    font-family: 'Inter', sans-serif;
    font-size: 14px;
    font-weight: 700;
    line-height: 22px;
    color: #787885;
+   padding-right: 160px;
 }
 
 /* contact us area */
