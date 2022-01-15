@@ -19,6 +19,11 @@
       font-size: 46px;
       line-height: 65px;
    }
+   /* products */
+   .products-wrap{
+      grid-column-gap:30px;
+      grid-row-gap:35px;
+   }
 
 
 }
@@ -94,7 +99,33 @@
    .feature-logos{
       grid-template-columns: repeat(4, 1fr);
    }
-   
+   /* products */
+   .products-wrap{
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap:15px;
+      grid-row-gap:35px;
+   }
+   .load-more{
+      text-align: center;
+      margin-top: 30px;
+   }
+   /* Contact area */
+   #contact-us{
+      padding: 60px 0;
+   }
+   .contact-title{
+      font-size: 26px;
+   }
+   .contact-img{
+      display: none;
+   }
+   .contact-form{
+      width: 100%;
+   }
+   .contact-form form{
+      width: 100%;
+      padding: 0 30px;
+   }
    
 }
 
@@ -117,6 +148,7 @@
    .banner-left{
       width: 100%;
       margin-top: 30px;
+      text-align: center;
    }
    .banner-right{
       width: 100%;
@@ -126,6 +158,18 @@
    .feature-logos{
       grid-template-columns: repeat(3, 1fr);
       grid-row-gap: 15px;
+   }
+   /* products */
+   .products-wrap{
+      grid-template-columns: 1fr;
+   }
+   .load-more{
+      text-align: right;
+      margin-top: 30px;
+   }
+   /* Contact area */
+   .contact-title{
+      font-size: 22px;
    }
 }
 
