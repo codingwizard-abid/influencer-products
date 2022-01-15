@@ -195,7 +195,7 @@ a{
    box-shadow: -1px 0px 22px -2px rgba(0,0,0,0.2);
 }
 .single-products img{
-   max-width: 100%;
+   width: 100%;
 }
 .products-details h3 a{
    font-size: 28px;
