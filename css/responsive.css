@@ -160,6 +160,9 @@
       grid-row-gap: 15px;
    }
    /* products */
+   #products{
+      padding: 80px 0 50px;
+   }
    .products-wrap{
       grid-template-columns: 1fr;
    }
@@ -170,6 +173,10 @@
    /* Contact area */
    .contact-title{
       font-size: 22px;
+   }
+   /* footer */
+   .footer-content{
+      max-width: 100%;
    }
 }
 

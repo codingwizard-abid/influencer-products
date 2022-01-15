@@ -286,3 +286,37 @@ input:active,textarea:active{
 .contact-form form button:hover{
    opacity: .9;
 }
+
+/* Footer area */
+#footer{
+   background-color: #0A0826;
+   color: #fff;
+   padding: 50px 0;
+}
+.footer-content{
+   max-width: 60%;
+   text-align: center;
+   margin: auto;
+}
+.footer-content h3{
+   font-size: 24px;
+   font-weight: 700;
+   line-height:36px;
+}
+.footer-content p{
+   font-size: 14px;
+   font-weight: 600;
+   line-height:24px;
+   margin: 15px 0 25px;
+}
+.social a{
+   background-color:#22203B;
+   width: 35px;
+   height: 35px;
+   line-height: 36px;
+   color: #fff;
+   font-size: 18px;
+   display: inline-block;
+   border-radius: 100px;
+   margin-right: 10px;
+}
